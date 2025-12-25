@@ -1,0 +1,36 @@
+.DS_Store
+# Node/npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+coverage/
+.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# OS
+Thumbs.db
+
+# Misc
+.history
+*.bak
