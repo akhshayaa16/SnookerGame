@@ -68,31 +68,4 @@ Debugging tips
 Testing changes quickly
 - Use the HTTP server method above and enable live reload with tools like `live-server` or an editor extension.
 
-Repository & Git
-----------------
-- A `.gitignore` file exists to avoid committing OS artifacts and build outputs.
-- To commit the updated README locally:
 
-```bash
-git add README.md
-git commit -m "Improve README: usage and development instructions"
-git push
-```
-
-Notes & Troubleshooting
------------------------
-- If the canvas does not display, ensure `p5.min.js` is included (see `libraries/`).
-- If physics behave strangely after edits, try resetting the simulation state (reload the page).
-- Missing fonts: confirm files are present under `fonts/` and paths in `index.html` or JS match.
-
-Contributing
-------------
-- Feel free to open issues or pull requests. Keep changes focused (feature or bugfix per PR) and include screenshots if UI-related.
-
-License
--------
-- Add a license file if you want to share this project publicly (MIT recommended for small demos).
-
-Contact
--------
-- For questions or help, open an issue in the GitHub repository.
